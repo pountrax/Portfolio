@@ -1,0 +1,30 @@
+.Redes{
+    padding:10px;
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    width:260px;
+    height:260px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 2%;  
+    margin:10px; 
+
+}
+.Redes a{
+    text-align: right;
+    border-radius: 3%;
+    height:10%;
+    width:30%;
+    background-color:rgba(79, 40, 40, 0.368);
+    color:rgb(200, 200, 200);
+    text-decoration: none;
+}
+.Redes b{
+    color:rgb(231, 227, 227);
+    width:50%;
+    padding:5px;
+}
+.Iconos{
+    width:1.5rem;
+    height:1.5rem;
+}

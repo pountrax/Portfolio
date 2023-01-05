@@ -1,0 +1,27 @@
+.Tarjeta{
+    margin:10px;
+    padding:10px;
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    width:800px;
+    height:300px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 2%;   
+
+}
+.Tarjeta p{
+    line-height: 50px;
+    padding-right:10px;
+    text-align: right;
+    border-radius: 3%;
+    height:46px;
+    width:65%;
+    background-color:rgba(204, 16, 16, 0.368);
+    color:rgb(200, 200, 200);
+}
+.Tarjeta b{
+    height:20px;
+    color:rgb(231, 227, 227);
+    width:30%;
+}

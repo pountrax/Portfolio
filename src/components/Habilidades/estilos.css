@@ -1,0 +1,21 @@
+.Habilidades{
+    padding:10px;
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    width:400px;
+    height:260px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 2%;  
+    margin:10px; 
+}
+.Habilidades b{
+    text-align: center;
+    font-size: 15px;
+    color:rgb(231, 227, 227);
+    width:100%;
+}
+
+.Habilidades-Prog{
+width:100%;
+}
