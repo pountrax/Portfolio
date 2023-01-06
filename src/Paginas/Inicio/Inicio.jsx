@@ -10,15 +10,9 @@ import './estilos.css'
 const Inicio = () => {
     const FondoPantalla = {
         width:'100%',
-        height:'100vh',
-        backgroundColor: '#333',
-        backgroundImage: `url(${pantalla})`,
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition:`center`
+        height:'100%',
       };
   return (
-    
     <div style={FondoPantalla} className="inicio">
       <div className="Barra"><NavBar/></div>
       <div className="contenedor"> 

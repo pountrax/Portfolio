@@ -1,4 +1,3 @@
-
 .contenedor{
     justify-content: center;
     display:grid;
@@ -28,4 +27,13 @@
     grid-column-end:3 ;
     grid-row-start:2;
     grid-row-end:2;
+}
+
+
+@media (max-width:500px) {
+    .contenedor{
+        display:flex;
+        flex-direction: column;
+  }
+
 }

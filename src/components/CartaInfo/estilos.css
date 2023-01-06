@@ -1,27 +1,44 @@
 .Tarjeta{
-    margin:10px;
-    padding:10px;
+    margin:1rem;
+    padding:0.5rem;
     align-items: center;
     display:flex;
     flex-wrap: wrap;
-    width:800px;
-    height:300px;
+    width:50rem;
+    height:19rem;
     background-color: rgba(0,0,0,0.6);
     border-radius: 2%;   
 
 }
 .Tarjeta p{
-    line-height: 50px;
-    padding-right:10px;
+    line-height: 3rem;
+    padding-right:1rem;
     text-align: right;
     border-radius: 3%;
-    height:46px;
-    width:65%;
-    background-color:rgba(204, 16, 16, 0.368);
+    height:2.5rem;
+    width:32rem;
+    background-color:rgba(16, 29, 172, 0.368);
     color:rgb(200, 200, 200);
 }
 .Tarjeta b{
-    height:20px;
+    height:1rem;
     color:rgb(231, 227, 227);
-    width:30%;
+    width:12rem;
+}
+@media (max-width:500px) {
+    .Tarjeta{
+        /* justify-content: center; */
+        width:20rem;
+        height:22rem;
+        display:flex;
+        flex-direction: column;
+  }
+  .Tarjeta p{
+    font-size: 13px;
+    width:18rem;
+    text-align: center;
+  }
+  .Tarjeta b{
+    text-align: center;
+  }
 }
