@@ -1,16 +1,16 @@
 .Carta{
-    margin-top: 10px;
-    width:300px;
-    height:300px;
+    margin-top: 1rem;
+    width:17rem;
+    height:18rem;
     display:flex;
     flex-direction: column;
     background-color: rgba(0,0,0,0.6);
     border-radius: 10%;
 }
 .FotoYo{
-    padding:10px 70px;
-    width:150px;
-    height:150px;
+    padding:1rem 4rem;
+    width:10rem;
+    height:10rem;
     border-radius:50%;
     /* border:none; */
     object-fit: cover;
@@ -20,11 +20,16 @@
     text-align: center;
 }
 .Carta-Texto h1{
-    font-size:20px;
+    font-size:1rem;
     font-weight: bolder;
     color:rgb(235, 228, 228);
 }
 .Carta-Texto h2{
     color:rgb(200, 200, 200);
     font-size: 12px;
+}
+@media (max-width:500px) {
+.Carta{
+    padding:0px
+}
 }

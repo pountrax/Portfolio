@@ -1,14 +1,14 @@
+
 nav {
     left:-250px;
-    width:20rem;
+    width:25%;
     height:100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.889);
     display:flex;
     flex-direction: column;
     justify-content: center;
     position:absolute;
     transition:all 1.5s;
-
   }
   
 nav a {
@@ -18,8 +18,8 @@ nav a {
     transition:all 1s;
   }
 nav a:hover { 
-    background-color:rgba(78, 13, 13, 0.3);
-    color: #f00;
+    background-color:rgba(18, 13, 78, 0.3);
+    color: rgb(211, 199, 235);
   }
 nav:hover{
   color: #f2f2f2;
@@ -50,17 +50,51 @@ nav:hover{
   cursor:pointer;
   background-color:rgba(191, 185, 185, 0.861);
 }
+.botonBarra{
+  display:none;
+  visibility:hidden
+}
+/* .Barra-responsiva{
 
+} */
 @media (max-width:500px) {
   .Barra{
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.467) ;
+    height:50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Barra nav{
+    color:#f2f2f2;
     left:0px;
     width:100%;
-    height:100px;
+    height:100%;
     background-color: rgba(0, 0, 0, 0.8);
     display:flex;
     flex-direction: column;
     justify-content: center;
-    
-    transition:all 1.5s;
+    align-items: center;
+    position:absolute;
+    visibility:hidden;
+}
+a{
+  text-align: center;
+  width:80%
+}
+.Icono{
+width:2rem;
+height:2rem;
+
+}
+.botonBarra{
+    background-color: rgba(46,49,146,255);
+    border-radius: 2%;
+    display:block;
+    width:40%;
+    visibility:visible;
+    z-index:1;
+    border:none;
   }
 }

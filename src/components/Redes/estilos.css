@@ -3,8 +3,8 @@
     align-items: center;
     display:flex;
     flex-wrap: wrap;
-    width:260px;
-    height:260px;
+    width:15rem;
+    height:13rem;
     background-color: rgba(0,0,0,0.6);
     border-radius: 2%;  
     margin:10px; 
@@ -27,4 +27,17 @@
 .Iconos{
     width:1.5rem;
     height:1.5rem;
+}
+@media (max-width:500px){
+    .Redes{
+        display:grid;
+        grid-template-columns: 20px repeat(2,auto);
+        width:25rem;
+        height:18rem
+    }
+    .Redes a{
+        text-align: center;
+        align-self: center;
+        background-color: transparent;
+    }
 }

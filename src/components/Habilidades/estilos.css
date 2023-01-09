@@ -1,13 +1,13 @@
 .Habilidades{
-    padding:10px;
+    padding:1rem;
     align-items: center;
     display:flex;
     flex-wrap: wrap;
-    width:24rem;
-    height:17rem;
+    width:20rem;
+    height:13rem;
     background-color: rgba(0,0,0,0.6);
     border-radius: 2%;  
-    margin:10px; 
+    margin:1rem; 
 }
 .Habilidades b{
     text-align: center;
@@ -22,6 +22,9 @@ width:100%;
 
 @media (max-width:500px) {
     .Habilidades{
-        width:auto
+        padding:0px ;
+        width:80%;
+        padding:1rem;
+        margin:1.8rem;
     }
 }
