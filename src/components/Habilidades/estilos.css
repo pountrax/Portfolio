@@ -28,3 +28,11 @@ width:100%;
         margin:1.8rem;
     }
 }
+@media (max-width:400px) {
+.Habilidades{
+    padding:0px ;
+    width:auto;
+    padding:0.3rem;
+    margin:0.5rem;
+  }
+  }

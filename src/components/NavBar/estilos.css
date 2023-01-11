@@ -7,17 +7,18 @@ nav {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    position:absolute;
+    position:fixed;
     transition:all 1.5s;
   }
   
-nav a {
+nav p {
+  cursor:pointer;
     padding: 2rem;
     color: #fff;
     text-decoration: none;
     transition:all 1s;
   }
-nav a:hover { 
+nav p:hover { 
     background-color:rgba(18, 13, 78, 0.3);
     color: rgb(211, 199, 235);
   }
@@ -62,6 +63,7 @@ nav:hover{
     width:100%;
     background-color: rgba(0, 0, 0, 0.467) ;
     height:50px;
+    
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -69,7 +71,7 @@ nav:hover{
   .Barra nav{
     color:#f2f2f2;
     left:0px;
-    width:100%;
+    width:90%;
     height:100%;
     background-color: rgba(0, 0, 0, 0.8);
     display:flex;
@@ -79,7 +81,7 @@ nav:hover{
     position:absolute;
     visibility:hidden;
 }
-a{
+p{
   text-align: center;
   width:80%
 }

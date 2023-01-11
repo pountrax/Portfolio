@@ -9,7 +9,7 @@ import './estilos.css'
 const Inicio = () => {
   return (
     <div className="inicio">
-      <div className="Barra"><NavBar/></div>
+      <div ><NavBar/></div>
       <div className="contenedor"> 
         <div className="contenedor-item1"><CartaPerfil/></div>
         <div className="contenedor-item2"><CartaInfo/></div>

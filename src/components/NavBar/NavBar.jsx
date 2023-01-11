@@ -1,5 +1,6 @@
 import React,{useRef, useState} from 'react'
 import './estilos.css'
+import { useNavigate } from 'react-router-dom'
 import MusicaFondo from '../../musica/musicafondo.mp3'
 import muted from '../../img/muted.png'
 import disco from '../../img/disco.gif'
@@ -19,22 +20,23 @@ function NavBar ()  {
   const estilo={
     visibility:'visible'
   }
+  let navigate = useNavigate()
   return (
     <div  className="Barra">  
     <button className="botonBarra"  onClick={cambiarEstado}><img className="Icono" src={barra} alt="menú"/></button>
     <nav style={estilos ? estilo:{}} >
          
         <audio className="Barra-audio" src= {MusicaFondo} loop ref={audioRef}/>
-        <p>clickea el disco y desmutea para escuchar musica!
-        </p>
+        <h2>clickea el disco y desmutea para escuchar musica!
+        </h2>
         <div className="Barra-Sonido">
           <img src={disco} alt="muted" className="icons" onClick={playAudio}/>
         <img src={muted} alt="muted" className="icons" onClick={toggleMute}/>
         </div>
-        <a href="#home">Perfil</a>
-        <a href="#about">Contacto</a>
-        <a href="#contact">Proyectos</a>
-        <a href="#arte">Arte</a>
+        <p  onClick={()=>navigate('/Portfolio')}>Perfil</p>
+        {/* <a href="#about">Contacto</a> */}
+        <p>Proyectos</p>
+        <p onClick={()=>navigate('/Arte')}>Arte</p>
         
   </nav></div>
   )
