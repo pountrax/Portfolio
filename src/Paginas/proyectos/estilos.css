@@ -1,0 +1,41 @@
+
+.contenedor{
+    justify-content: center;
+    display:grid;
+    grid-template-columns: 19rem 27rem 20rem;
+    grid-template-rows:21rem 16rem
+}
+
+
+.ImgProyecto{
+    padding:1rem 4rem;
+    width:10rem;
+    height:10rem;
+    border-radius:20%;
+    /* border:none; */
+    object-fit: cover;
+}
+.proyecto:hover{
+
+    transition: all 0.4s;
+    background-color:rgba(0, 0, 0, 0.897);
+}
+.tituloProyecto{
+    cursor: pointer;
+    font-size:1rem;
+    font-weight: bolder;
+    color:rgb(69, 89, 201);
+    text-decoration: none;
+}
+
+@media (max-width:500px) {
+
+    .contenedor{
+        /* justify-content: center; */
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+  }
+
+}
