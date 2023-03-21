@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ea8d1b41.css",
-    "main.js": "/Portfolio/static/js/main.3fc7cb32.js",
+    "main.css": "/Portfolio/static/css/main.3cd48721.css",
+    "main.js": "/Portfolio/static/js/main.af5a2501.js",
     "static/media/musicafondo.mp3": "/Portfolio/static/media/musicafondo.e6b51e892a6f0c0c1544.mp3",
     "static/media/13.png": "/Portfolio/static/media/13.420eafd6c1d1c920ce2c.png",
     "static/media/disco.gif": "/Portfolio/static/media/disco.d443f808e2a9e0696607.gif",
+    "static/media/proyectoRiot.png": "/Portfolio/static/media/proyectoRiot.dd5d770b1744e7cac501.png",
     "static/media/pantalla.gif": "/Portfolio/static/media/pantalla.8ad90284db271546b782.gif",
     "static/media/16.gif": "/Portfolio/static/media/16.ceb3e11a0da782ef614f.gif",
     "static/media/12.gif": "/Portfolio/static/media/12.a8584d13ac2820619030.gif",
@@ -14,6 +15,7 @@
     "static/media/6.gif": "/Portfolio/static/media/6.c75fc0079310598f3a4b.gif",
     "static/media/8.gif": "/Portfolio/static/media/8.8b42606561f43fa1beba.gif",
     "static/media/proyectoMeme.png": "/Portfolio/static/media/proyectoMeme.555ed105339cc71bbe13.png",
+    "static/media/proyectoMainumbys.png": "/Portfolio/static/media/proyectoMainumbys.49b77ee5d998b460964e.png",
     "static/media/19.png": "/Portfolio/static/media/19.9d6ec279f4898466c89b.png",
     "static/media/18.gif": "/Portfolio/static/media/18.c21a67898fd17df272aa.gif",
     "static/media/fondocelu.jpg": "/Portfolio/static/media/fondocelu.310d4973e7388a018b67.jpg",
@@ -35,11 +37,11 @@
     "static/media/muted.png": "/Portfolio/static/media/muted.fa8f27615f434fb6ec8c.png",
     "static/media/salir.png": "/Portfolio/static/media/salir.d7704fde41707bef646d.png",
     "index.html": "/Portfolio/index.html",
-    "main.ea8d1b41.css.map": "/Portfolio/static/css/main.ea8d1b41.css.map",
-    "main.3fc7cb32.js.map": "/Portfolio/static/js/main.3fc7cb32.js.map"
+    "main.3cd48721.css.map": "/Portfolio/static/css/main.3cd48721.css.map",
+    "main.af5a2501.js.map": "/Portfolio/static/js/main.af5a2501.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea8d1b41.css",
-    "static/js/main.3fc7cb32.js"
+    "static/css/main.3cd48721.css",
+    "static/js/main.af5a2501.js"
   ]
 }
