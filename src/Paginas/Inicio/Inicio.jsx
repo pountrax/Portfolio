@@ -10,12 +10,12 @@ const Inicio = () => {
   return (
     <div className="inicio">
       <div ><NavBar/></div>
-      <div className="contenedor"> 
-        <div className="contenedor-item1"><CartaPerfil/></div>
-        <div className="contenedor-item2"><CartaInfo/></div>
-        <div className="contenedor-item3"><Redes/></div>
-        <div className="contenedor-item4"><Habilidades/></div>
-        <div className="contenedor-item5"><HabilidadesDos/></div>
+      <div className="contenedorInicio"> 
+        <div className="contenedorInicio-item1"><CartaPerfil/></div>
+        <div className="contenedorInicio-item2"><CartaInfo/></div>
+        <div className="contenedorInicio-item3"><Redes/></div>
+        <div className="contenedorInicio-item4"><Habilidades/></div>
+        <div className="contenedorInicio-item5"><HabilidadesDos/></div>
       </div>
     </div>
   )

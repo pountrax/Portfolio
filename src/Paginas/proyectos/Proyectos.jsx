@@ -5,6 +5,7 @@ import './estilos.css'
 import ProyectoMeme from '../../img/proyectoMeme.png'
 import ProyectoRiot from '../../img/proyectoRiot.png'
 import ProyectoMainumbys from '../../img/proyectoMainumbys.png'
+import ProyectoVirasoro from '../../img/proyectoVirasoro.png'
 import Proyec from '../../components/Proyectos/Proyec';
 const Proyectos = () => {
   const proyectos = [
@@ -29,14 +30,23 @@ const Proyectos = () => {
       titulo:'Sitio Mainumbys',
       descripcion:'Página Web creada con wix para clases de Danza Aerea'
     },
-        
+    {
+      id:'4',
+      link:'virasorocity.wordpress.com',
+      img:ProyectoVirasoro,
+      titulo:'Sitio de Virasoro',
+      descripcion:'Página Web creada con Wordpress para Trabajo Practico de mi carrera'
+    },
+   
+
+          
   ]
   return (
     <div className="inicio">
-      <div ><NavBar/></div>
+        <div ><NavBar/></div>
       <div className="autor">
         <CartaPerfil/>
-        <h1>Lista de Proyectos realizados</h1>
+        <h1 className="tituloproyectos">Lista de Proyectos realizados</h1>
         </div>
       <div className="contenedorProyecto"> 
           <Proyec proyectos={proyectos}/>
