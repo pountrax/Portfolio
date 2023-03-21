@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8edd6092.css",
-    "main.js": "/Portfolio/static/js/main.b3cb6e1b.js",
+    "main.css": "/Portfolio/static/css/main.0e995aa6.css",
+    "main.js": "/Portfolio/static/js/main.16343573.js",
     "static/media/musicafondo.mp3": "/Portfolio/static/media/musicafondo.e6b51e892a6f0c0c1544.mp3",
     "static/media/13.png": "/Portfolio/static/media/13.420eafd6c1d1c920ce2c.png",
     "static/media/disco.gif": "/Portfolio/static/media/disco.d443f808e2a9e0696607.gif",
     "static/media/proyectoRiot.png": "/Portfolio/static/media/proyectoRiot.dd5d770b1744e7cac501.png",
+    "static/media/proyectoVirasoro.png": "/Portfolio/static/media/proyectoVirasoro.6636b900aacc536256e6.png",
     "static/media/pantalla.gif": "/Portfolio/static/media/pantalla.8ad90284db271546b782.gif",
     "static/media/16.gif": "/Portfolio/static/media/16.ceb3e11a0da782ef614f.gif",
     "static/media/12.gif": "/Portfolio/static/media/12.a8584d13ac2820619030.gif",
@@ -37,11 +38,11 @@
     "static/media/muted.png": "/Portfolio/static/media/muted.fa8f27615f434fb6ec8c.png",
     "static/media/salir.png": "/Portfolio/static/media/salir.d7704fde41707bef646d.png",
     "index.html": "/Portfolio/index.html",
-    "main.8edd6092.css.map": "/Portfolio/static/css/main.8edd6092.css.map",
-    "main.b3cb6e1b.js.map": "/Portfolio/static/js/main.b3cb6e1b.js.map"
+    "main.0e995aa6.css.map": "/Portfolio/static/css/main.0e995aa6.css.map",
+    "main.16343573.js.map": "/Portfolio/static/js/main.16343573.js.map"
   },
   "entrypoints": [
-    "static/css/main.8edd6092.css",
-    "static/js/main.b3cb6e1b.js"
+    "static/css/main.0e995aa6.css",
+    "static/js/main.16343573.js"
   ]
 }
