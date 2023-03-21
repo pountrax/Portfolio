@@ -3,20 +3,43 @@ import CartaPerfil from '../../components/CartaPerfil/CartaPerfil';
 import NavBar from '../../components/NavBar/NavBar';
 import './estilos.css'
 import ProyectoMeme from '../../img/proyectoMeme.png'
+import ProyectoRiot from '../../img/proyectoRiot.png'
+import ProyectoMainumbys from '../../img/proyectoMainumbys.png'
+import Proyec from '../../components/Proyectos/Proyec';
 const Proyectos = () => {
+  const proyectos = [
+    {
+      id:'1',
+      link:'https://memes-gamma.vercel.app/',
+      img:ProyectoMeme,
+      titulo:'Generador de memes',
+      descripcion:'Aplicación creada con React'
+    },
+    {
+      id:'2',
+      link:'https://demo-sitio-riot.vercel.app/',
+      img:ProyectoRiot,
+      titulo:'Sitio RiotGames',
+      descripcion:'Página Web estatica inspirada en el videojuego LoL'
+    },
+    {
+      id:'3',
+      link:'https://mainumbys.wixsite.com/inicio',
+      img:ProyectoMainumbys,
+      titulo:'Sitio Mainumbys',
+      descripcion:'Página Web creada con wix para clases de Danza Aerea'
+    },
+        
+  ]
   return (
     <div className="inicio">
       <div ><NavBar/></div>
-      <div className="contenedor"> 
-        <div className="contenedor-item1"><CartaPerfil/></div>
-          <div className="Carta proyecto">
-          <img src={ProyectoMeme} className="ImgProyecto" alt="Proyecto"></img>
-          <div className="Carta-Texto" >
-              <a  className="tituloProyecto" rel="noopener noreferrer"
-              target="_blank" href="https://memes-gamma.vercel.app/">Generador de memes</a>
-              <h2>Aplicación creada con React</h2>  
-          </div>
-      </div>  
+      <div className="autor">
+        <CartaPerfil/>
+        <h1>Lista de Proyectos realizados</h1>
+        </div>
+      <div className="contenedorProyecto"> 
+          <Proyec proyectos={proyectos}/>
       </div>
     </div>
   )

@@ -1,22 +1,24 @@
-
-.contenedor{
+.autor{
+    width:100%;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.autor h1{
+display: inline-block;
+color:rgb(155, 155, 155);
+}
+.contenedorProyecto{
     justify-content: center;
     display:grid;
-    grid-template-columns: 19rem 27rem 20rem;
-    grid-template-rows:21rem 16rem
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto;
 }
 
-
-.ImgProyecto{
-    padding:1rem 4rem;
-    width:10rem;
-    height:10rem;
-    border-radius:20%;
-    /* border:none; */
-    object-fit: cover;
-}
 .proyecto:hover{
-
     transition: all 0.4s;
     background-color:rgba(0, 0, 0, 0.897);
 }
