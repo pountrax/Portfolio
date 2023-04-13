@@ -32,7 +32,7 @@ const Proyectos = () => {
     },
     {
       id:'4',
-      link:'virasorocity.wordpress.com',
+      link:'https://virasorocity.wordpress.com',
       img:ProyectoVirasoro,
       titulo:'Sitio de Virasoro',
       descripcion:'Página Web creada con Wordpress para Trabajo Practico de mi carrera'
