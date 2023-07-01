@@ -36,7 +36,7 @@ function NavBar ()  {
         <p  onClick={()=>navigate('/Portfolio')}>Perfil</p>
         {/* <a href="#about">Contacto</a> */}
         <p onClick={()=>navigate('/Proyectos')}>Proyectos</p>
-        <p onClick={()=>navigate('/Arte')}>Arte</p>
+        {/* <p onClick={()=>navigate('/Arte')}>Arte</p> */}
         
   </nav></div>
   )
